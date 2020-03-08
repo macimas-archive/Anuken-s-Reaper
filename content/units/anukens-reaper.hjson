@@ -1,0 +1,39 @@
+type: hoverUnit
+name: Anuken's Reaper
+description: Anuken's redesigned Reaper. Stronger than ever.
+health: 32000
+mass: 55
+hitsize: 128
+speed: 0.02
+maxVelocity: 0.7
+drag: 0.025
+range: 128
+shootcone: 30
+flying: true
+rotateWeapon: true
+engineOffset: 82.5
+engineSize: 12.5
+rotatespeed: 0.03
+baseRotateSpeed: 0.015
+weapon: {
+	name: reaper-gun
+	length: 5
+	reload: 8
+	width: 44
+	shots: 1
+	shake: 1.5
+	inaccuracy: 6
+	alternate: true
+	ejectEffect: none
+	shootSound: shootBig
+	bullet: {
+		lifetime: 30
+		speed: 12
+		damage: 960
+		splashDamage: 120
+		splashDamageRadius: 16
+		bulletWidth: 17
+		bulletHeight: 24
+		shootEffect: shootBig
+	}
+}
